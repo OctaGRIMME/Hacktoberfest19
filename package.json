@@ -1,0 +1,28 @@
+{
+  "name": "testcli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "preferGlobal": true,
+  "bin": "./comands.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RishabhKodes/testcli.git"
+  },
+  "author": "Rishabh Bhandari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RishabhKodes/testcli/issues"
+  },
+  "homepage": "https://github.com/RishabhKodes/testcli#readme",
+  "dependencies": {
+    "commander": "^3.0.1",
+    "enquirer": "^2.3.1",
+    "inquirer": "^7.0.0",
+    "mongoose": "^5.7.1",
+    "require": "^2.4.20"
+  }
+}
